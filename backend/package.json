@@ -1,7 +1,7 @@
 {
   "name": "blog-backend",
   "version": "1.0.0",
- "description": "Express + MySQL REST API for the MERN blog",
+  "description": "Express + MySQL REST API for the MERN blog",
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
@@ -12,7 +12,7 @@
   },
   "dependencies": {
     "cors": "^2.8.5",
-    "dotenv": "^16.4.5",
+    "dotenv": "^16.6.1",
     "express": "^4.21.0",
     "mysql2": "^3.24.6"
   }
