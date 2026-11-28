@@ -74,7 +74,7 @@ export default function PostFormPage() {
 
       {!loadError && (
         <PostForm
-          key={post?._id || 'new'}
+          key={post?.id || 'new'}
           initialValues={post}
           onSubmit={handleSubmit}
           submitting={submitting}
